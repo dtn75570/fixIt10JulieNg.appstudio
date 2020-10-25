@@ -63,6 +63,15 @@
         "Elements",
         "txtPostDel.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerDelete",
+        "Elements",
+        "btnCheck.json"
+      ]
     }
   ],
   "class": "",

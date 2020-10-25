@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnDel",
-  "left": 205,
+  "left": 211,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 276,
-  "value": "Check!",
+  "top": 246,
+  "value": "Delete!",
   "width": "auto"
 }
