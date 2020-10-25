@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnUpdate",
-  "left": 199,
+  "id": "btnCheck2",
+  "left": 240,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 255,
-  "value": "Submit",
+  "top": 419,
+  "value": "Check",
   "width": "auto"
 }
