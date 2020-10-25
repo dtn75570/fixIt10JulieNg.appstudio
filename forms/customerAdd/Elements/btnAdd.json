@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnUpdate",
-  "left": 199,
+  "id": "btnAdd",
+  "left": 239,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 255,
-  "value": "Submit",
+  "top": 282,
+  "value": "Add",
   "width": "auto"
 }

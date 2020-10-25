@@ -1,4 +1,6 @@
 let allNames = ""
+let psotUpdate = ""
+
 customerUpdate.onshow=function(){
     // get the data to populate the dropdown with names from database
     let query = "SELECT name FROM customer"
@@ -50,3 +52,48 @@ btnUpdate.onclick=function(){
             NSB.MsgBox(`Error: ${req.status}`);
     } // found is true 
 }
+
+btnCheck1.onclick=function(){
+    query = "SELECT * FROM customer"
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=dtn75570&pass=" + pw + "&database=dtn75570&query=" + query)
+
+if (req.status == 200){ 
+        postUpdate = JSON.parse(req.responseText)
+        console.log(postUpdate)
+        
+    if (postUpdate.length == 0){  
+        NSB.MsgBox(`There are no customer in the database.`)
+    }else {   
+        console.log(`the parsed JSON is ${postUpdate}`)
+        console.log(`the first row/item in the big array is a small array: ${postUpdate[0]}`)
+
+
+        // Now output the names of all the dogs into the textArea control:
+        let message2 = ""
+        for (i = 0; i < postUpdate.length; i++)
+            message2 = message2 + postUpdate[i][1] + "\n"
+        txtPostUpdate.value = message2
+
+     } // end else
+
+}else{  
+        NSB.MsgBox(`Error: ${req.status}`)
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

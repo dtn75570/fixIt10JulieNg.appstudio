@@ -28,8 +28,8 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnUpdate",
-  "left": 199,
+  "id": "btnAllCustomer1",
+  "left": 0,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 255,
-  "value": "Submit",
+  "top": 2,
+  "value": "See All Customers!",
   "width": "auto"
 }

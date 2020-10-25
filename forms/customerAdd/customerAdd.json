@@ -14,45 +14,54 @@
       "!type": "External",
       "file": [
         "forms",
-        "customerUpdate",
+        "customerAdd",
         "Elements",
-        "btnUpdate.json"
+        "txtAllCustomerName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerUpdate",
+        "customerAdd",
         "Elements",
-        "inptNewName.json"
+        "btnAllCustomer1.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerUpdate",
+        "customerAdd",
         "Elements",
-        "selUpdate.json"
+        "inptAdd.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerUpdate",
+        "customerAdd",
         "Elements",
-        "txtPostUpdate.json"
+        "btnAdd.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerUpdate",
+        "customerAdd",
         "Elements",
-        "btnCheck1.json"
+        "txtPostAdd.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "customerAdd",
+        "Elements",
+        "btnCheck2.json"
       ]
     }
   ],
@@ -62,7 +71,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "customerUpdate",
+  "id": "customerAdd",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
