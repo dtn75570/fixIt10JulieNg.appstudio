@@ -33,7 +33,7 @@ btnUpdate.onclick=function(){
         }
      }   
     if (found == false) 
-       NSB.MsgBox("That pet name is not in the database.")
+       NSB.MsgBox("That customer name is not in the database.")
     else if (found == true) {
         query = "UPDATE customer SET name =" + '"' + newName + '"' + " WHERE name = " + '"' + oldName + '"'
         //alert(query)
@@ -41,12 +41,12 @@ btnUpdate.onclick=function(){
 
         if (req.status == 200) { //transit worked.
             if (req.responseText == 500) {   // means the update succeeded
-                NSB.MsgBox(`You have successfully changed the pet name!`)
+                NSB.MsgBox(`You have successfully changed the customer name!`)
                 // reset controls to original state
                 inptNewName.value = ""
                 selUpdate.value = ""
             } else
-                NSB.MsgBox(`There was a problem changing the pet name.`)
+                NSB.MsgBox(`There was a problem changing the customer name.`)
         } else 
             // transit error
             NSB.MsgBox(`Error: ${req.status}`);
